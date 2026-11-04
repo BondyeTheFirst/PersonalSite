@@ -1,244 +1,132 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giulio Faldetta - Product Manager</title>
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <style>
-        /* Custom styles to apply the Inter font */
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* A very light gray background */
-        }
-        /* Style for section headers */
-        .section-header {
-            font-size: 1.875rem; /* 30px */
-            font-weight: 700;
-            margin-bottom: 2rem;
-            color: #111827; /* A dark gray for text */
-            text-align: center;
-        }
-        /* Card styles for a consistent look */
-        .card {
-            background-color: white;
-            border-radius: 0.75rem; /* 12px */
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            padding: 1.5rem;
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-        }
-        /* Custom Orange Color */
-        .primary-color { color: #F2B218; }
-        .bg-primary-color { background-color: #F2B218; }
-        .hover\:bg-primary-color-dark:hover { background-color: #e0a30b; }
-        .border-primary-color-light { border-color: #fde68a; }
-        .dot-primary-color { background-color: #F2B218; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giulio Faldetta | Product Manager, Data and AI</title>
+<meta name="description" content="Product manager who turns data and AI into products people actually use. Data platforms, AI adoption and trusted financial data.">
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="text-gray-800 antialiased">
+<body>
+<header class="nav">
+  <a class="brand" href="#top">Giulio Faldetta</a>
+  <nav>
+    <a href="#impact">Impact</a>
+    <a href="#stories">Stories</a>
+    <a href="#experience">Experience</a>
+    <a href="#approach">Approach</a>
+    <a href="#beyond">Beyond work</a>
+    <a class="pill" href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <!-- Main Container -->
-    <div class="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-
-        <!-- Header / Hero Section -->
-        <header class="text-center mb-16 md:mb-24">
-            <h1 class="text-5xl md:text-7xl font-bold text-gray-900 tracking-tight">Giulio Faldetta</h1>
-            <p class="mt-3 text-xl md:text-2xl font-medium primary-color">Data Product Manager</p>
-            <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600">
-                Experienced Product Manager specialised in Data within the e-commerce industry. Over six years of experience across analytics and product management roles, working in France and Italy.
-            </p>
-            <div class="mt-8 flex justify-center items-center gap-x-4">
-                <a href="mailto:giulio.faldetta@gmail.com" class="inline-flex items-center gap-2 bg-primary-color text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-primary-color-dark transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                    Email Me
-                </a>
-                <a href="https://www.linkedin.com/in/giulio-faldetta" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:opacity-80 transition-opacity">
-                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/72px-LinkedIn_icon.svg.png" alt="LinkedIn Logo" class="w-8 h-8">
-                </a>
-            </div>
-        </header>
-
-        <!-- Main Content Grid -->
-        <main class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-
-            <!-- Left Column (or full width on mobile) -->
-            <div class="md:col-span-2 space-y-12">
-
-                <!-- Work Experience Section -->
-                <section id="experience">
-                    <h2 class="section-header text-left">Work Experience</h2>
-                    <div class="space-y-8 border-l-2 border-primary-color-light ml-3">
-                        <!-- Job 1 -->
-                        <div class="relative pl-8">
-                            <div class="absolute -left-[11px] top-1.5 w-5 h-5 dot-primary-color rounded-full border-4 border-white"></div>
-                            <h3 class="text-xl font-semibold text-gray-900">Product Manager</h3>
-                            <p class="font-medium text-gray-700">Yoox Net-a-Porter - Bologna, Italy</p>
-                            <p class="text-sm text-gray-500">Jan 2023 - Present</p>
-                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1 marker:primary-color">
-                                <li>Led the evolution of the Enterprise Analytics Platform, integrating Databricks with existing cloud platforms.</li>
-                                <li>Managed the development of new data models for a churn prediction algorithm, increasing customer retention by 6%.</li>
-                                <li>Directed development of advanced data models for a CLV prediction algorithm, boosting Average Order Value by 15%.</li>
-                                <li>Contributed to 160 million EUR strategic investments by creating comprehensive tracking and analysis frameworks.</li>
-                            </ul>
-                        </div>
-                        <!-- Job 2 -->
-                        <div class="relative pl-8">
-                           <div class="absolute -left-[11px] top-1.5 w-5 h-5 dot-primary-color rounded-full border-4 border-white"></div>
-                            <h3 class="text-xl font-semibold text-gray-900">Product Owner</h3>
-                            <p class="font-medium text-gray-700">Yoox Net-a-Porter - Bologna, Italy</p>
-                            <p class="text-sm text-gray-500">Jan 2022 - Jan 2023</p>
-                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1 marker:primary-color">
-                                <li>Coordinated customer data integration into Google platforms, enhancing the precision of customer audiences in Google Ads.</li>
-                                <li>Implemented an iterative process for continuous improvements of the Data Platform based on user feedback.</li>
-                                <li>Enacted strategies that improved data quality standards, resulting in a drop of bug tickets of ~35%.</li>
-                                <li>Deployed tactics that improved visibility into teams' activities, fostering a 20% increase in data tool adoption.</li>
-                            </ul>
-                        </div>
-                        <!-- Job 3 -->
-                        <div class="relative pl-8">
-                           <div class="absolute -left-[11px] top-1.5 w-5 h-5 dot-primary-color rounded-full border-4 border-white"></div>
-                            <h3 class="text-xl font-semibold text-gray-900">Business Analyst</h3>
-                            <p class="font-medium text-gray-700">Alten - Nice, France</p>
-                            <p class="text-sm text-gray-500">Dec 2018 - Dec 2021</p>
-                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1 marker:primary-color">
-                                <li>Conducted in-depth analysis of customer needs and designed feasible solutions tailored to their requirements.</li>
-                                <li>Guided the translation of requirements into Agile Scrum artifacts within Jira for development teams.</li>
-                                <li>Worked closely with the product owner, cooperating in backlog prioritisation and requirement management.</li>
-                                <li>Led technical demos and proof-of-concepts (POCs) for enterprise clients.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                 <!-- Education Section -->
-                 <section id="education">
-                    <h2 class="section-header text-left">Education</h2>
-                    <div class="space-y-6">
-                        <div class="card">
-                            <h3 class="text-xl font-semibold text-gray-900">Master's in Computer Science</h3>
-                            <p class="font-medium text-gray-700">University of Trento - Trento, Italy</p>
-                            <p class="text-sm text-gray-500">2018</p>
-                            <p class="mt-2 text-gray-600">Key Courses: Machine Learning, Big Data, Data Mining, Security Testing, Cyber Security, Distributed Systems.</p>
-                        </div>
-                        <div class="card">
-                            <h3 class="text-xl font-semibold text-gray-900">Bachelor's in Computer Engineering</h3>
-                            <p class="font-medium text-gray-700">University of Palermo - Palermo, Italy</p>
-                            <p class="text-sm text-gray-500">2016</p>
-                             <p class="mt-2 text-gray-600">Key Courses: Object Oriented Programming, Algorithms, Databases, Network Protocols, Operating Systems.</p>
-                        </div>
-                    </div>
-                </section>
-
-            </div>
-
-            <!-- Right Column (or below on mobile) -->
-            <div class="space-y-8">
-
-                <!-- Skills Section -->
-                <section id="skills" class="card">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Skills</h2>
-                    <div class="space-y-4">
-                        <div>
-                            <h4 class="font-semibold text-gray-700">Professional</h4>
-                            <div class="flex flex-wrap gap-2 mt-2">
-                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Cross-Functional Leadership</span>
-                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Stakeholder Management</span>
-                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Agile Scrum</span>
-                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Product Lifecycle Management</span>
-                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Requirements Analysis</span>
-                            </div>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-gray-700">Technical</h4>
-                            <div class="flex flex-wrap gap-2 mt-2">
-                                <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Python</span>
-                                <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">SQL</span>
-                                <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Google Analytics</span>
-                                <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">BigQuery</span>
-                                <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Databricks</span>
-                                <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Jira</span>
-                            </div>
-                        </div>
-                         <div>
-                            <h4 class="font-semibold text-gray-700">Languages</h4>
-                            <div class="flex flex-wrap gap-2 mt-2">
-                                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Italian (Native)</span>
-                                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">English (Fluent)</span>
-                                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Portuguese (Intermediate)</span>
-                                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">French (Basic)</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Hobbies Section -->
-                <section id="hobbies" class="card">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-6">Hobbies & Interests</h2>
-                    <div class="space-y-6">
-                        <!-- Toastmasters -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-lg bg-gray-100">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Toastmasters_2011.png" alt="Toastmasters Logo" class="h-8 w-auto">
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800">Public Speaking</h4>
-                                <p class="text-gray-600 text-sm">Member of Toastmasters International, a nonprofit organisation that promotes public speaking and leadership skills.</p>
-                            </div>
-                        </div>
-                        <!-- History -->
-                        <div class="flex items-start gap-4">
-                             <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-lg bg-gray-100">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube Logo" class="h-6 w-auto">
-                             </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800">History & Storytelling</h4>
-                                <p class="text-gray-600 text-sm">I produce and narrate history videos on my YouTube channel, <a href="https://www.youtube.com/@enlighteninghistory0/featured" target="_blank" rel="noopener noreferrer" class="font-medium primary-color hover:underline">Enlightening History</a>.</p>
-                            </div>
-                        </div>
-                        <!-- Gaming -->
-                         <div class="flex items-start gap-4">
-                             <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-lg bg-gray-100 text-gray-700">
-                                <img src="https://vic2.paradoxwikis.com/images/a/a8/Paradox_Interactive_logo.png" alt="Paradox Interactive Logo" class="h-8 w-auto">
-                             </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800">Strategy Games</h4>
-                                <p class="text-gray-600 text-sm">Passionate about grand strategy games, from board games to video-games, especially by Paradox Interactive.</p>
-                            </div>
-                        </div>
-                        <!-- Travel -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-lg bg-gray-100 text-gray-700">
-                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800">Travel & Cuisine</h4>
-                                <p class="text-gray-600 text-sm">Love exploring new cultures and discovering their unique dishes while traveling the world.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-            </div>
-        </main>
-        
-        <!-- Footer -->
-        <footer class="text-center mt-16 md:mt-24 text-gray-500">
-            <p>&copy; 2025 Giulio Faldetta. All Rights Reserved.</p>
-        </footer>
-
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <p class="eyebrow">Product Manager · Data and AI</p>
+      <h1>I turn data and AI into products people actually use.</h1>
+      <p class="lead">Seven years of building internal data products, from fashion e-commerce to insurance claims. I care most about what happens after launch, when people decide whether a tool is worth keeping.</p>
+      <div class="facts">
+        <span>Based in Italy</span>
+        <span>English · Italian · Portuguese · French</span>
+        <span>MSc Computer Science</span>
+      </div>
+      <p class="cta"><a class="btn" href="mailto:giulio.faldetta@gmail.com">Email me</a> <a class="btn ghost" href="https://www.linkedin.com/in/giulio-faldetta">LinkedIn</a></p>
     </div>
+    <div class="avatar" aria-hidden="false"><span>GF</span><img src="photo.jpg" alt="Giulio Faldetta" width="160" height="160" onerror="this.remove()"></div>
+  </div>
+</section>
 
+<section id="impact" class="wrap">
+  <h2>Impact in numbers</h2>
+  <div class="stats">
+    <div><b>€160M</b><span>of investment decisions informed by a KPI framework I built</span></div>
+    <div><b>−35%</b><span>platform bug tickets within a year</span></div>
+    <div><b>+20%</b><span>usage of our data tools</span></div>
+    <div><b>~½</b><span>requests to the reporting team, after rolling out natural-language analytics</span></div>
+    <div><b>+6% / +15%</b><span>retention and order value from models fed with data I made trustworthy</span></div>
+  </div>
+</section>
+
+<section id="stories" class="wrap">
+  <h2>Three stories</h2>
+  <p class="sub">The numbers above came from real problems. Here is how three of them went.</p>
+  <div class="cards">
+    <article class="card">
+      <h3>From conflicting figures to one source of truth</h3>
+      <p><b>The problem.</b> Data lived in siloed systems, pipelines created duplicated datasets, and stakeholders were the ones finding bugs, daily.</p>
+      <p><b>What I did.</b> Surveyed users, then led a data quality framework, better documentation, a unified data platform and automated alerts that opened tickets before anyone had to.</p>
+      <p><b>The result.</b> Bug tickets down about 35% and data tool usage up 20%.</p>
+    </article>
+    <article class="card">
+      <h3>Data for people who can’t write SQL</h3>
+      <p><b>The problem.</b> Senior stakeholders waited days for simple answers, and the reporting team was buried in requests.</p>
+      <p><b>What I did.</b> Ran a proof of concept of Databricks Genie for leadership, including C-levels, and championed it across the business.</p>
+      <p><b>The result.</b> Time to a simple insight fell from days to minutes, requests nearly halved, and Genie dashboards became official reporting tools.</p>
+    </article>
+    <article class="card">
+      <h3>Claims data you can trace</h3>
+      <p><b>The problem.</b> In insurance, every euro moves from first notification to settlement, and Finance and Risk need to trust each figure.</p>
+      <p><b>What I do.</b> Own Claims Data end to end, from reserves and payments to loss ratios and carrier reporting, and get five teams to agree on shared definitions.</p>
+      <p><b>The result.</b> Numbers that reconcile and trace back to their source.</p>
+    </article>
+  </div>
+</section>
+
+<section id="experience" class="wrap">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    <li><span class="when">2026 – now</span><div><b>Senior Product Manager, Claims Data</b> · Prima Assicurazioni<p>Financial data in a regulated environment, plus agentic workflows that automate recurring work.</p></div></li>
+    <li><span class="when">2023 – 2026</span><div><b>Senior Data Product Manager</b> · Yoox Net-a-Porter<p>Led data engineers and analysts, owned the analytics platform roadmap and worked alongside the data scientists.</p></div></li>
+    <li><span class="when">2022 – 2023</span><div><b>Data Product Owner</b> · Yoox Net-a-Porter<p>Fixed trust in the data, and with it adoption of the tools.</p></div></li>
+    <li><span class="when">2018 – 2021</span><div><b>Business Analyst</b> · Alten, for Amadeus Hospitality<p>Requirements, specs, API documentation and demos for global hotel chains, in a Scrum team.</p></div></li>
+  </ol>
+  <p class="edu">MSc Computer Science, University of Trento (2018) · BEng Computer Engineering, University of Palermo (2016) · Professional Scrum Master I</p>
+</section>
+
+<section id="approach" class="wrap">
+  <h2>How I work</h2>
+  <div class="cards four">
+    <div class="card"><h3>Adoption beats launch</h3><p>A product is finished when people still choose it three months later.</p></div>
+    <div class="card"><h3>Every number has a source</h3><p>If a figure can’t be traced, it can’t inform a decision.</p></div>
+    <div class="card"><h3>AI with a person accountable</h3><p>Staff should see where an answer came from, and someone should own the decision.</p></div>
+    <div class="card"><h3>Bring people in early</h3><p>Surveys, workshops and prototypes before specs, so the product fits the work.</p></div>
+  </div>
+  <h3 class="tools-title">Toolbox</h3>
+  <ul class="chips">
+    <li>Python</li><li>SQL</li><li>Databricks</li><li>BigQuery</li><li>Redshift</li><li>Airflow</li><li>Tableau</li><li>Power BI</li><li>Google Analytics</li><li>AWS</li><li>Git</li><li>Jira</li><li>YouTrack</li><li>Confluence</li><li>Notion</li><li>Figma</li><li>Swagger</li><li>Scrum · Kanban</li>
+  </ul>
+</section>
+
+<section id="beyond" class="wrap">
+  <h2>Beyond work</h2>
+  <p class="sub">I jump from one thing to the next, and I will admit it freely. I go deep, learn what it teaches me, then follow the next curiosity. It makes me quick to pick up a new domain and a pleasant person to brainstorm with.</p>
+  <div class="feature">
+    <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/QO_9bNBlLUw" title="Dom Pedro I: The Portuguese Prince Who Gave Brazil its Independence" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div>
+      <h3>The video I am proudest of</h3>
+      <p>The story of Dom Pedro I, the Portuguese prince who gave Brazil its independence, from my history channel Enlightening History. It is a very different stage from a boardroom, but it shows how I research, structure and present a story.</p>
+      <p class="note">I am not making videos right now, since padel, piano and other interests took over. I may well come back to it. This is my life, one chapter at a time.</p>
+      <p><a href="https://www.youtube.com/@enlighteninghistory0/featured">See the channel</a></p>
+    </div>
+  </div>
+  <div class="cards four">
+    <div class="card"><h3>Public speaking</h3><p>Member of Toastmasters International. It shows when I explain complex data to executives.</p></div>
+    <div class="card"><h3>Grand strategy</h3><p>Board games and Paradox classics. Excellent training for trade-offs and long horizons.</p></div>
+    <div class="card"><h3>Padel and piano</h3><p>Current chapters. One teaches me to react fast, the other to practise slowly.</p></div>
+    <div class="card"><h3>Four cities</h3><p>Palermo, Trento, Nice and Bologna. Each taught me a new way of eating and a new way of working.</p></div>
+    <div class="card"><h3>Tinkering</h3><p>I build small things for fun, like mobile apps with AI tools and a notes assistant I can chat with. None of it is finished, which is part of the charm.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="wrap contact">
+  <h2>Say hello</h2>
+  <p>Always happy to chat about data, AI and what makes people actually use the tools we build for them.</p>
+  <p class="cta"><a class="btn" href="mailto:giulio.faldetta@gmail.com">giulio.faldetta@gmail.com</a> <a class="btn ghost" href="https://www.linkedin.com/in/giulio-faldetta">LinkedIn</a></p>
+</section>
+</main>
+
+<footer class="wrap">© 2026 Giulio Faldetta</footer>
 </body>
 </html>
