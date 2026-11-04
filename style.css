@@ -1,15 +1,15 @@
 :root{
-  /* Change --accent to your exact orange (hex) and everything follows. */
-  --accent:#e8731a;
-  --accent-soft:#fdeedd; --on-accent:#ffffff;
+  /* Brand orange */
+  --accent:#F2B218; --accent-dark:#e0a30b; --accent-light:#fde68a;
+  --accent-soft:#fef3cf; --on-accent:#1c2024;
   --bg:#fbfbfa; --surface:#ffffff; --text:#1c2024; --muted:#5b6670; --line:#e4e6e8;
-  --accent-text:#b4530a;
+  --accent-text:#8f5f00;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){
   :root{
     --bg:#111418; --surface:#181d23; --text:#e8eaed; --muted:#9aa4af; --line:#2a313a;
-    --accent:#f08a3c; --accent-soft:#33241a; --on-accent:#111418; --accent-text:#f5a15e;
+    --accent:#F2B218; --accent-dark:#e0a30b; --accent-light:#fde68a; --accent-soft:#3a2f10; --on-accent:#111418; --accent-text:#F2B218;
     color-scheme:dark;
   }
 }
@@ -26,7 +26,7 @@ a{color:var(--accent-text)}
 .nav nav a{color:var(--muted);text-decoration:none}
 .nav nav a:hover{color:var(--text)}
 .nav .pill{color:var(--on-accent);background:var(--accent);padding:6px 14px;border-radius:999px}
-.nav .pill:hover{color:var(--on-accent);opacity:.9}
+.nav .pill:hover{color:var(--on-accent);background:var(--accent-dark)}
 
 .hero{padding-top:88px}
 .eyebrow{color:var(--accent-text);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:14px;margin:0 0 12px}
@@ -36,7 +36,8 @@ h1{font-size:clamp(2rem,5.5vw,3.2rem);line-height:1.15;margin:0 0 20px;letter-sp
 .facts span{font-size:14px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:4px 12px;background:var(--surface)}
 .btn{display:inline-block;background:var(--accent);color:var(--on-accent);text-decoration:none;padding:10px 20px;border-radius:10px;font-weight:600;margin:0 8px 8px 0}
 .btn.ghost{background:transparent;color:var(--accent-text);border:1px solid var(--accent)}
-.btn:hover{opacity:.9}
+.btn:hover{background:var(--accent-dark)}
+.btn.ghost:hover{background:var(--accent-soft)}
 
 h2{font-size:1.6rem;margin:0 0 20px;letter-spacing:-.01em}
 h3{font-size:1.05rem;margin:0 0 8px}
